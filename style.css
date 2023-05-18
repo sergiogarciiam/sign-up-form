@@ -6,8 +6,7 @@
 }
 
 body {
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: "Skranji", cursive;
 }
 
 .container {
@@ -30,6 +29,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 10px;
 
   margin-top: 200px;
   width: 100%;
@@ -74,7 +74,7 @@ body {
 
 .other-paragraph,
 .main-paragraph {
-  font-size: 2em;
+  font-size: 1.5em;
 }
 
 .form {
@@ -85,7 +85,43 @@ body {
   background-color: white;
 }
 
+.form > legend {
+  font-size: 1.5em;
+}
+
 .inputs-row {
   display: flex;
   gap: 20px;
+}
+
+.inputs-row > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.form > button {
+  align-self: flex-start;
+
+  font-size: 1.1em;
+  padding: 15px 60px;
+  background-color: #596d48;
+  color: #eee;
+  border: none;
+  border-radius: 10px;
+
+  cursor: pointer;
+}
+
+.form > button:hover {
+  background-color: #47573a;
+}
+
+.log-in {
+  text-decoration: none;
+  color: #596d48;
+}
+
+.log-in:hover {
+  text-decoration: underline;
+  color: #47573a;
 }
