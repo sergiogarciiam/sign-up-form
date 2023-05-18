@@ -1,0 +1,53 @@
+/* GENERAL */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}
+
+/* LEFT PART */
+.left-part {
+  position: relative;
+  width: 40%;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.odin-background {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+/* RIGHT PART */
+.right-part {
+  width: 60%;
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  background-color: #f9fafb;
+  padding: 50px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  background-color: white;
+}
+
+.inputs-row {
+  display: flex;
+  gap: 20px;
+}
