@@ -53,6 +53,16 @@ body {
   color: #eee;
 }
 
+.author > a,
+.author > a:visited {
+  color: #eee;
+}
+
+.author > a:hover {
+  color: #eeeeeeb2;
+  text-decoration: none;
+}
+
 .odin-background {
   position: absolute;
   width: 100%;
@@ -68,30 +78,37 @@ body {
   flex-direction: column;
   gap: 50px;
 
+  margin-top: 150px;
   background-color: #f9fafb;
-  padding: 200px 200px 0 50px;
 }
 
 .other-paragraph,
 .main-paragraph {
   font-size: 1.5em;
+  padding: 0px 50px;
 }
 
 .form {
   display: flex;
   flex-direction: column;
   gap: 20px;
-
-  background-color: white;
 }
 
-.form > legend {
-  font-size: 1.5em;
+.inputs-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  background-color: white;
+  padding-bottom: 20px;
+  box-shadow: 0px 3px 2px #3333334d;
+
+  padding: 50px;
 }
 
 .inputs-row {
   display: flex;
-  gap: 20px;
+  gap: 50px;
 }
 
 .inputs-row > div {
@@ -99,8 +116,28 @@ body {
   flex-direction: column;
 }
 
+.form legend {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.form input {
+  width: 300px;
+  padding: 5px;
+  font-size: 1.1em;
+
+  border: 1px solid #111;
+  border-radius: 3px;
+}
+
+.form input:focus {
+  outline: none !important;
+  border: 1px solid #3861d4;
+}
+
 .form > button {
   align-self: flex-start;
+  margin-left: 50px;
 
   font-size: 1.1em;
   padding: 15px 60px;
@@ -114,6 +151,10 @@ body {
 
 .form > button:hover {
   background-color: #47573a;
+}
+
+.already-account {
+  margin-left: 50px;
 }
 
 .log-in {
