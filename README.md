@@ -1,8 +1,6 @@
 # sign-up-form
 
-A simple sign up form created with html, css and js.
-
-The project is from [The Odin Project](https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-sign-up-form) curriculum.
+A simple sign up form created with html, css and js
 
 ## Screenshot
 
