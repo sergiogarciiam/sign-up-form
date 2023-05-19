@@ -6,7 +6,7 @@
 }
 
 body {
-  font-family: "Skranji", cursive;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .container {
@@ -35,12 +35,13 @@ body {
   width: 100%;
   padding: 20px;
 
-  background-color: #2222225d;
+  background-color: #00000062;
   color: #eee;
 }
 
 .odin-title {
   font-size: 5em;
+  font-family: "Skranji", cursive;
 }
 
 .odin-lined {
@@ -85,7 +86,8 @@ body {
 .other-paragraph,
 .main-paragraph {
   font-size: 1.5em;
-  padding: 0px 50px;
+  font-weight: bolder;
+  padding: 0 50px;
 }
 
 .form {
@@ -106,6 +108,12 @@ body {
   padding: 50px;
 }
 
+.legend {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
 .inputs-row {
   display: flex;
   gap: 50px;
@@ -116,32 +124,36 @@ body {
   flex-direction: column;
 }
 
-.form legend {
-  font-size: 1.5em;
-  margin-bottom: 10px;
+.form label {
+  font-weight: lighter;
+  font-size: 0.9em;
+  letter-spacing: 1px;
 }
 
 .form input {
   width: 300px;
-  padding: 5px;
+  padding: 8px;
   font-size: 1.1em;
 
-  border: 1px solid #111;
+  border: 1px solid #333;
   border-radius: 3px;
 }
 
 .form input:focus {
   outline: none !important;
   border: 1px solid #3861d4;
+  box-shadow: 0 0 3px #3861d4;
 }
 
-.form > button {
+.button {
   align-self: flex-start;
   margin-left: 50px;
 
   font-size: 1.1em;
+  font-weight: bolder;
+
   padding: 15px 60px;
-  background-color: #596d48;
+  background-color: #755d45;
   color: #eee;
   border: none;
   border-radius: 10px;
@@ -149,8 +161,8 @@ body {
   cursor: pointer;
 }
 
-.form > button:hover {
-  background-color: #47573a;
+.button:hover {
+  background-color: #504233;
 }
 
 .already-account {
@@ -158,17 +170,19 @@ body {
 }
 
 .log-in {
+  font-weight: bolder;
+
   text-decoration: none;
-  color: #596d48;
+  color: #755d45;
 }
 
 .log-in:hover {
   text-decoration: underline;
-  color: #47573a;
+  color: #504233;
 }
 
 .password-error {
   display: none;
-  font-size: 0.6em;
+  font-size: 0.7em;
   color: red;
 }
