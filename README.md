@@ -4,7 +4,13 @@ A simple sign up form created with html, css and js
 
 ## Screenshot
 
-![sign-up-form](./img/sign-up-form-screenshot.png)
+### Computer
+
+![computer screenshot](./img/computer-screenshot.png)
+
+### Mobile
+
+![mobile screenshot](./img/mobile-screenshot.png)
 
 ## Acknowledgements
 
