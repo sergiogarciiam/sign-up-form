@@ -1,6 +1,6 @@
 # sign-up-form
 
-A simple sign up form created with html, css and js
+A simple sign up form created with html, css and js with the goal of learning "forms"
 
 ## Screenshot
 
